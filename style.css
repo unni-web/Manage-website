@@ -98,8 +98,8 @@
     width: 100px;
     border-radius: 90px;
     padding-left: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 7%;
+    padding-bottom: 7%;
     padding-right: 5%;
     margin-left: 150px;
     background-color: hsl(12, 88%, 59%);
@@ -284,4 +284,119 @@ position: absolute;
 margin-top:40px;
     color: #b2b2b9;
 
+}
+
+
+
+
+.img2 img {
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    top: 700px;
+left: 10px;
+}
+
+
+
+
+.dh1 h2{
+    top: 1000px;
+    left: 500px;
+    position: absolute;
+        color: #232d51;
+
+}
+
+
+
+
+
+/* last banner */
+
+
+.div{
+    height: 250px;
+    width: 100%;
+    /* background-color: tomato; */
+    position: relative;
+    top: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div .d1{
+    height: 250px;
+    width: 380px;
+    background-color: #fafafa;
+    position: relative;
+        text-align: center;
+
+}
+
+.div .d1 img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 150px;
+    top: -20px;
+}
+
+.div .d2{
+    height: 250px;
+    width: 380px;
+    background-color: #fafafa;
+        text-align: center;
+
+}
+.div .d2 img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 570px;
+    top: -20px;
+}
+.div .d3{
+    height: 250px;
+    width: 380px;
+    background-color: #fafafa;
+    text-align: center;
+}
+.div .d3 img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 980px;
+    top: -20px;
+}
+
+
+.div .d1 p{
+margin-top: 40px;
+color: #babbbf;
+}
+
+.div .d2 p{
+margin-top: 40px;
+color: #babbbf;
+}
+
+.div .d3 p{
+margin-top: 40px;
+color: #babbbf;
+}
+
+
+.endb button{
+    top: 1450px;
+    position: absolute;
+        background-color: hsl(12, 88%, 59%);
+    color: white;
+    border-radius: 90px;
+    border: 0;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+left: 550px;
 }

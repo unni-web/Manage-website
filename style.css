@@ -1,47 +1,205 @@
-body{
-margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Be Vietnam Pro", sans-serif;
+    /* font-weight: 100;
+  font-style: normal; */
 }
- .main{
+
+.bg {
+    /* background-color: black; */
+    height: 5px;
+    width: 100%;
+}
+
+.main {
     display: flex;
-        /* align-content: center;
-        justify-content: center;
-        justify-content: space-between; */
- }
-.main img{
-    /* position: relative; */
+    /* background-color: yellow; */
+    height: 50px;
+    width: 400px;
+}
+
+.main .bg img {
+    /* position: absolute; */
     height: 400px;
     width: 500px;
     margin-left: 800px;
-} 
-.main .nav{
-    height: 100px;
-    width: 100%;
-    /* background-color: aquamarine; */
-    position: absolute;
-    /* margin-top: 10px; */
-    /* display: flex; */
-    align-content: center;
-    justify-content: center;
-    justify-content: space-around;
 }
-.main .nav img{
-    height: 50px;
+
+.main .nav {
+    /* background-color: aqua; */
+    height: 100px;
+    width: 200px;
+    display: flex;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.nav img {
+    height: 30px;
     width: 100px;
+    /* margin-left: 60px; */
+}
+
+.main .nav1 {
+    /* background-color: aqua; */
+    height: 100px;
+    width: 1700px;
+    display: flex;
+    color: black;
+    justify-content: space-between;
     margin-left: 10px;
+}
+
+.nav1 p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2px;
+    color: #717482;
+}
+
+.nav1 p2 {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 40px;
+    color: #717482;
 
 }
-.nav a{
-    margin-left: 50px;
+
+.nav1 p3 {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 40px;
+    color: #717482;
+
 }
-.nav a2{
-margin-left: 100px;
+
+.nav1 p4 {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 40px;
+    color: #717482;
+
 }
-.nav a3{
-margin-left: 150px;
+
+.nav1 p5 {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 40px;
+    color: #717482;
+
 }
-.nav a4{
-    margin-left: 200px;
+
+.main .nav2 button {
+    height: 10px;
+    width: 100px;
+    border-radius: 90px;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    margin-left: 150px;
+    background-color: hsl(12, 88%, 59%);
+    color: #f7c7b7;
+    border: 0;
+    display: flex;
+    align-items: center;
+    /* margin-left: 200px; */
+    margin-top: 35px;
 }
-.nav a5{
-    margin-left: 250px;
+
+
+
+
+/* banner1 */
+.b1 {
+    height: 400px;
+    width: 900px;
+    /* background-color: blueviolet; */
+    margin: 12%;
+    margin-top: 30px;
+    position: absolute;
+    display: flex;
+}
+
+.b1 .div1 {
+    height: 400px;
+    width: 450px;
+    /* background-color: yellowgreen; */
+}
+
+.b1 .div2 {
+    height: 400px;
+    width: 450px;
+    /* background-color: yellow; */
+}
+
+.div1 h1 {
+    text-align: left;
+    color: #232d51;
+
+}
+
+.div1 p {
+    color: #b2b2b9;
+}
+
+.div1 button {
+    background-color: hsl(12, 88%, 59%);
+    color: #f7c7b7;
+
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 90px;
+    border: 0;
+}
+
+.div2 img {
+    height: 400px;
+    width: 450px;
+}
+
+
+/* banner2 */
+
+.b2 {
+    height: 400px;
+    width: 900px;
+    /* background-color: blueviolet; */
+    margin: 12%;
+    margin-top: 450px;
+    position: absolute;
+    display: flex;
+}
+
+.b2 .div1 {
+    height: 400px;
+    width: 450px;
+    /* background-color: yellowgreen; */
+}
+
+.b2 .div2 {
+    height: 400px;
+    width: 450px;
+    background-color: yellow;
+}
+
+.b2 .div1 h1 {
+    text-align: left;
+    color: #232d51;
+
+}
+
+.b2 .div2 button {
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    border-radius: 90px;
+    border: 0;
+    padding-left: 15px;
+    padding-right: 15px;
 }

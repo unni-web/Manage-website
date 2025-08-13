@@ -1,0 +1,47 @@
+body{
+margin: 0;
+}
+ .main{
+    display: flex;
+        /* align-content: center;
+        justify-content: center;
+        justify-content: space-between; */
+ }
+.main img{
+    /* position: relative; */
+    height: 400px;
+    width: 500px;
+    margin-left: 800px;
+} 
+.main .nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    position: absolute;
+    /* margin-top: 10px; */
+    /* display: flex; */
+    align-content: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.main .nav img{
+    height: 50px;
+    width: 100px;
+    margin-left: 10px;
+
+}
+.nav a{
+    margin-left: 50px;
+}
+.nav a2{
+margin-left: 100px;
+}
+.nav a3{
+margin-left: 150px;
+}
+.nav a4{
+    margin-left: 200px;
+}
+.nav a5{
+    margin-left: 250px;
+}

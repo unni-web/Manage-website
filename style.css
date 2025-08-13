@@ -22,7 +22,7 @@
 .main .bg img {
     /* position: absolute; */
     height: 400px;
-    width: 500px;
+    width: 400px;
     margin-left: 800px;
 }
 
@@ -37,9 +37,10 @@
 }
 
 .nav img {
-    height: 30px;
+    height: 20px;
     width: 100px;
     /* margin-left: 60px; */
+    margin-top: 13px;
 }
 
 .main .nav1 {
@@ -113,6 +114,10 @@
 
 
 
+@media screen and ) {
+    
+}
+
 
 /* banner1 */
 .b1 {
@@ -151,10 +156,10 @@
     background-color: hsl(12, 88%, 59%);
     color: white;
 
-    padding-left: 10px;
+   padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
     border-radius: 90px;
     border: 0;
 }
@@ -200,10 +205,10 @@
     color: white;
     border-radius: 90px;
     border: 0;
-    padding-left: 15px;
-    padding-right: 15px;
-height: 30px;
-width: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+    width: 50px;
 }
 
 .b2 .div2 .text1 {
@@ -211,15 +216,17 @@ width: 50px;
     justify-content: center;
     justify-content: space-between;
 }
-.b2 .div2 .text1 h4{
-    margin-left: 6%;
+
+.b2 .div2 .text1 h4 {
+    margin-left: 7%;
     margin-top: 10px;
-position: absolute;
+    position: absolute;
     color: #232d51;
 
 }
-.b2 .div2 .text1 p{
-margin-top:40px;
+
+.b2 .div2 .text1 p {
+    margin-top: 40px;
     color: #b2b2b9;
 
 }
@@ -230,10 +237,10 @@ margin-top:40px;
     color: white;
     border-radius: 90px;
     border: 0;
-    padding-left: 15px;
-    padding-right: 15px;
-height: 30px;
-width: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+    width: 50px;
 }
 
 .b2 .div2 .text2 {
@@ -241,15 +248,17 @@ width: 50px;
     justify-content: center;
     justify-content: space-between;
 }
-.b2 .div2 .text2 h4{
-    margin-left: 6%;
+
+.b2 .div2 .text2 h4 {
+    margin-left: 7%;
     margin-top: 10px;
-position: absolute;
+    position: absolute;
     color: #232d51;
 
 }
-.b2 .div2 .text2 p{
-margin-top:40px;
+
+.b2 .div2 .text2 p {
+    margin-top: 40px;
     color: #b2b2b9;
 
 }
@@ -262,10 +271,10 @@ margin-top:40px;
     color: white;
     border-radius: 90px;
     border: 0;
-    padding-left: 15px;
-    padding-right: 15px;
-height: 30px;
-width: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+    width: 50px;
 }
 
 .b2 .div2 .text3 {
@@ -273,15 +282,17 @@ width: 50px;
     justify-content: center;
     justify-content: space-between;
 }
-.b2 .div2 .text3 h4{
-    margin-left: 6%;
+
+.b2 .div2 .text3 h4 {
+    margin-left: 7%;
     margin-top: 10px;
-position: absolute;
+    position: absolute;
     color: #232d51;
 
 }
-.b2 .div2 .text3 p{
-margin-top:40px;
+
+.b2 .div2 .text3 p {
+    margin-top: 40px;
     color: #b2b2b9;
 
 }
@@ -294,17 +305,17 @@ margin-top:40px;
     height: 400px;
     width: 500px;
     top: 700px;
-left: 10px;
+    left: 10px;
 }
 
 
 
 
-.dh1 h2{
+.dh1 h2 {
     top: 1000px;
     left: 500px;
     position: absolute;
-        color: #232d51;
+    color: #232d51;
 
 }
 
@@ -315,7 +326,7 @@ left: 10px;
 /* last banner */
 
 
-.div{
+.div {
     height: 250px;
     width: 100%;
     /* background-color: tomato; */
@@ -325,16 +336,16 @@ left: 10px;
     justify-content: space-between;
 }
 
-.div .d1{
+.div .d1 {
     height: 250px;
     width: 380px;
     background-color: #fafafa;
     position: relative;
-        text-align: center;
+    text-align: center;
 
 }
 
-.div .d1 img{
+.div .d1 img {
     height: 50px;
     width: 50px;
     position: absolute;
@@ -342,27 +353,30 @@ left: 10px;
     top: -20px;
 }
 
-.div .d2{
+.div .d2 {
     height: 250px;
     width: 380px;
     background-color: #fafafa;
-        text-align: center;
+    text-align: center;
 
 }
-.div .d2 img{
+
+.div .d2 img {
     height: 50px;
     width: 50px;
     position: absolute;
     left: 570px;
     top: -20px;
 }
-.div .d3{
+
+.div .d3 {
     height: 250px;
     width: 380px;
     background-color: #fafafa;
     text-align: center;
 }
-.div .d3 img{
+
+.div .d3 img {
     height: 50px;
     width: 50px;
     position: absolute;
@@ -371,26 +385,176 @@ left: 10px;
 }
 
 
-.div .d1 p{
-margin-top: 40px;
-color: #babbbf;
+.div .d1 p {
+    margin-top: 40px;
+    color: #babbbf;
 }
 
-.div .d2 p{
-margin-top: 40px;
-color: #babbbf;
+.div .d2 p {
+    margin-top: 40px;
+    color: #babbbf;
 }
 
-.div .d3 p{
-margin-top: 40px;
-color: #babbbf;
+.div .d3 p {
+    margin-top: 40px;
+    color: #babbbf;
 }
 
 
-.endb button{
+.endb button {
     top: 1450px;
     position: absolute;
-        background-color: hsl(12, 88%, 59%);
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    border-radius: 90px;
+    border: 0;
+   padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    left: 550px;
+}
+
+
+
+/* preend */
+
+.preend {
+    height: 150px;
+    width: 1200px;
+    background-color: hsl(12, 88%, 59%);
+    position: absolute;
+    top: 1600px;
+    display: flex;
+}
+
+.preend .preendimg img {
+    height: 300px;
+    margin-top: -10px;
+    width: 300px;
+    opacity: 10%;
+    margin-left: 70%;
+}
+
+.preend .preendimg2 img {
+    height: 300px;
+    /* margin-top: -10px; */
+    width: 300px;
+    opacity: 10%;
+    margin-top: -180px;
+    margin-left: 50%;
+    position: absolute;
+}
+
+.preend h1 {
+    color: white;
+    position: absolute;
+    left: 20%;
+}
+
+.preend .endbutton button {
+    background-color: white;
+    color: hsl(12, 88%, 59%);
+    left: 950px;
+    top: 50px;
+    position: absolute;
+    border-radius: 90px;
+    border: 0;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+
+/* endbanner */
+
+
+.endc {
+    height: 200px;
+    width: 1200px;
+    background-color: #1e1e26;
+    position: absolute;
+    top: 1750px;
+    display: flex;
+}
+
+.endc .diva {
+    height: 200px;
+    width: 300px;
+    /* background-color: yellowgreen; */
+    align-content: center;
+    /* display: block; */
+
+}
+.endc .diva .img9 img{
+   height: 20px;
+   width: 110px;
+   margin-left: 80px;
+   margin-top: 30px;
+
+}
+
+
+.endc .divb {
+    height: 200px;
+    width: 300px;
+    background-color: #1e1e26;
+align-content: center;
+justify-content: center;
+display: block;
+text-align: center;
+}
+
+/* .endc .divc {
+    height: 200px;
+    width: 300px;
+    background-color: aquamarine;
+} */
+
+.endc .divd {
+    height: 200px;
+    width: 500px;
+    background-color: #1e1e26;
+    /* align-content: center; */
+/* justify-content: center; */
+/* margin-left: 30px; */
+}
+.endc .diva .logos{
+    display: flex;
+justify-content: space-between;
+margin-top: 100px;
+margin-left: 50px;
+margin-right: 50px;
+}
+.divb p{
+    color: #a2a3a8;
+}
+.endc .divc{
+    height: 180px;
+    width: 300px;
+    background-color: #1e1e26;
+/* align-content: center; */
+justify-content: center;
+text-align: center;
+margin-top: 20px;
+}
+.divc p{
+    color: #a2a3a8;
+}
+
+.endc .divd .cbox{
+    border-radius: 90px;
+    border: 0;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.endc .divd button{
+     background-color: hsl(12, 88%, 59%);
     color: white;
     border-radius: 90px;
     border: 0;
@@ -398,5 +562,4 @@ color: #babbbf;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
-left: 550px;
 }
